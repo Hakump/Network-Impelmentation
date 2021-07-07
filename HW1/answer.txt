@@ -1,0 +1,40 @@
+Q2:
+•	Expected Latency: 140 ms
+•	Expected Throughput: ~ 8 Mbps
+•	Average Latency: 140 ms
+•	Average Throughput: ~ 6.675 Mbps
+
+The prediction is correct since the average latency is the sum of all latency in the path,
+and the throughput is limited by the slowest link.
+
+Q3:
+TWO PAIRS:
+•	Expected Latency: ~140 ms
+•	Expected Throughput: ~ 10Mbps
+•	Average Latency: ~140.4 ms 
+•	Average Throughput: ~ 9.6Mbps (~10.4Mpbs & ~8.8Mpbs)
+THREE PAIRS:
+•	Expected Latency: ~141 ms
+•	Expected Throughput: ~ 6.8Mbps
+•	Average Latency: ~140.5 ms 
+•	Average Throughput: ~ 6.72Mbps (~10.4Mpbs & ~5.04Mpbs & ~4.8Mpbs)
+
+The prediction is correct since the average latency of each pair roughly equals the sum of latency
+in each's path and the throughput is allocated for all the pairs. 
+Thus the average of the thoughput for each pair is the slowest link divided by the number of pairs.
+In reality, the throughput may not be equally divided.
+
+Q4: 
+H5-H6:
+•	Expected Latency: ~80 ms
+•	Expected Throughput: ~ 12Mbps
+•	Average Latency: ~81 ms 
+•	Average Throughput: ~ 11.666Mbps 
+H1-H4:
+•	Expected Latency: ~141 ms
+•	Expected Throughput: ~ 8Mbps
+•	Average Latency: ~140.5 ms 
+•	Average Throughput: ~ 6.427Mbps 
+
+The prediction is correct since the latency of each pair is the sum of all latency in the path,
+and the throughput is limited by the slowest link

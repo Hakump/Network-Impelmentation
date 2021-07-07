@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e5c898af-5b15-4bc9-b904-309080160a79" name="Wisc (project level)" url="http://rockhopper-02.cs.wisc.edu">
+        <fileTransfer host="rockhopper-02.cs.wisc.edu" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e30b8655-4b77-45d8-9ab9-1c83960c5163" name="mininet@UW" url="http://mininet-57.cs.wisc.edu">
+        <fileTransfer host="mininet-57.cs.wisc.edu" port="22" rootFolder="/home/mininet" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
